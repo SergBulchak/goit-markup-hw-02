@@ -1,0 +1,14 @@
+/* Основний колір фону #F5F5F5 */
+/* Колір акцентів та лого #2196F3 */
+/* Колір вторинного фону #2F303A */
+/* Колір заголовків #212121 */
+/* Колір тексту #757575 */
+
+:root {
+    --primary-background-color: #F5F5F5
+    --accent-color: #2196F3
+    --secondary-background-color: #2F303A
+    --primary-title-color: #212121
+    --primary-text-color: #757575
+}
+
