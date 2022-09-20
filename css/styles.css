@@ -5,7 +5,7 @@
 /* Колір тексту #757575 */
 
 :root {
-    --primary-background-color: #F5F5F5;
+    --primary-background-color: #FFFFFF;
     --accent-color: #2196F3;
     --secondary-background-color: #2F303A;
     --primary-title-color: #212121;
@@ -19,8 +19,35 @@ body {
     letter-spacing: 0.03em;
     font-size: 14px;
 }
-.nav-link {text-decoration: none;}
+.current {color: var(--accent-color);}
 
+.nav-link {text-decoration: none;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500; 
+    font-size: 14px;
+    line-height: 16px; 
+    color: var(--primary-title-color);
+}
+.nav-link:focus,
+.nav-link:hover {
+    color: var(--accent-color)
+}
+
+.contact-link{
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: var(--primary-text-color);
+    }
+
+.contact-link:focus,
+.contact-link:hover {
+    color: var(--accent-color);
+}
+
+.list {list-style: none;}
 .logo {font-family: "raleway", sans-serif;
     font-weight: 700; 
     font-size: 26px;
