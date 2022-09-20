@@ -5,11 +5,11 @@
 /* Колір тексту #757575 */
 
 :root {
-    --primary-background-color: #F5F5F5
-    --accent-color: #2196F3
-    --secondary-background-color: #2F303A
-    --primary-title-color: #212121
-    --primary-text-color: #757575
+    --primary-background-color: #F5F5F5;
+    --accent-color: #2196F3;
+    --secondary-background-color: #2F303A;
+    --primary-title-color: #212121;
+    --primary-text-color: #757575;
 }
 
 body {
@@ -18,4 +18,17 @@ body {
     background-color: var(--primary-background-color);
     letter-spacing: 0.03em;
     font-size: 14px;
+}
+.nav-link {text-decoration: none;}
+
+.logo {font-family: "raleway", sans-serif;
+    font-weight: 700; 
+    font-size: 26px;
+    color: #000000;
+    text-decoration: none;
+    line-height: 1.2;
+}
+
+.accent {
+    color: var(--accent-color);
 }
