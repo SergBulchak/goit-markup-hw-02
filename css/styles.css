@@ -19,7 +19,7 @@ body {
     letter-spacing: 0.03em;
     font-size: 14px;
 }
-.current {color: var(--accent-color);}
+
 
 .nav-link {text-decoration: none;
     font-family: 'Roboto', sans-serif; 
@@ -27,6 +27,9 @@ body {
     font-size: 14px;
     line-height: 16px; 
     color: var(--primary-title-color);
+}
+.current {
+    color: var(--accent-color);
 }
 .nav-link:focus,
 .nav-link:hover {
@@ -55,7 +58,75 @@ body {
     text-decoration: none;
     line-height: 1.2;
 }
-
+.logo-foot {
+    font-family: "raleway", sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        color: var(--primary-background-color);
+        text-decoration: none;
+        line-height: 1.2;
+}
+footer {background-color: var(--secondary-background-color)}
 .accent {
     color: var(--accent-color);
+}
+.adress {text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--primary-background-color)
+}
+
+.mailt {text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.6)}
+
+.hero {
+    background-color: var(--secondary-background-color);
+    width: 1600px;
+    height: 600px;
+}
+
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--primary-background-color);
+}
+.btn-service {
+    width: 216px;
+    height: 50px;
+    background-color: #188ce8;
+    color: var(--primary-background-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: var(--primary-background-color)
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.pluses-title {
+    color: var(--primary-title-color);
+    font-weight: 700;
+    font-size: 14;
+    line-height: 1.2;
+   
+}
+
+.pluses-list{
+list-style: none;
 }
