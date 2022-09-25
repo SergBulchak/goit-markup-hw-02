@@ -40,7 +40,7 @@ body {
         text-decoration: none;
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
-        font-size: 14px;
+        font-size: inherit;
         line-height: 16px;
         color: var(--primary-text-color);
     }
@@ -73,7 +73,7 @@ footer {background-color: var(--secondary-background-color)}
 .adress {text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: inherit;
     line-height: 21px;
     color: var(--primary-background-color)
 }
@@ -81,7 +81,7 @@ footer {background-color: var(--secondary-background-color)}
 .mailt {text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: inherit;
     line-height: 21px;
     color: rgba(255, 255, 255, 0.6)}
 
@@ -122,11 +122,80 @@ footer {background-color: var(--secondary-background-color)}
 .pluses-title {
     color: var(--primary-title-color);
     font-weight: 700;
-    font-size: 14;
+    font-size: inherit;
     line-height: 1.2;
-   
+}
+.pluses-text {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: inherit;
+    line-height: 1.7;
 }
 
 .pluses-list{
 list-style: none;
+}
+
+.job-title {
+    color: var(--primary-title-color);
+    font-weight:700;
+    font-size: 36px;
+    line-height: 1.2;}
+
+.job-list {
+    list-style: none;
+}
+.team-list {
+    list-style: none;
+}
+
+.team-title {
+    color: var(--primary-title-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+}
+.team-title-two {
+    color: var(--primary-title-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.team-text {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: inherit;
+    line-height: 1.2;
+}
+.team {
+    background-color: #F5F4FA;
+}
+.filter-list {
+    list-style: none;
+}
+.filter-btn {
+    background-color: #F5F4FA;
+    height: 38px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--primary-title-color);
+    border-radius: 4px;
+}
+
+.filter-btn:focus,
+.filter-btn:hover {
+    background-color: var(--accent-color)
+}
+.work-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+color: var(--primary-title-color);
+}
+.work-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+color: var(--primary-text-color);
 }
