@@ -24,8 +24,7 @@ body {
 .nav-link {text-decoration: none;
     font-family: 'Roboto', sans-serif; 
     font-weight: 500; 
-    font-size: 14px;
-    line-height: 16px; 
+    line-height: 1,15; 
     color: var(--primary-title-color);
 }
 .current {
@@ -38,10 +37,8 @@ body {
 
 .contact-link{
         text-decoration: none;
-        font-family: 'Roboto', sans-serif;
         font-weight: 500;
-        font-size: inherit;
-        line-height: 16px;
+        line-height: 1,15;
         color: var(--primary-text-color);
     }
 
@@ -71,24 +68,22 @@ footer {background-color: var(--secondary-background-color)}
     color: var(--accent-color);
 }
 .adress {text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: inherit;
-    line-height: 21px;
-    color: var(--primary-background-color)
+    line-height: 1.5;
+    color: var(--primary-background-color);
+    font-style:normal;
 }
 
 .mailt {text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: inherit;
-    line-height: 21px;
+    line-height: 1.5;
     color: rgba(255, 255, 255, 0.6)}
+
+.mailt:focus, .mailt:hover,
+.adress:focus, .adress:hover {
+color: var(--accent-color);
+}
 
 .hero {
     background-color: var(--secondary-background-color);
-    width: 1600px;
-    height: 600px;
 }
 
 
@@ -97,6 +92,8 @@ footer {background-color: var(--secondary-background-color)}
     font-size: 44px;
     line-height: 1.36;
     color: var(--primary-background-color);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .btn-service {
     width: 216px;
@@ -121,14 +118,9 @@ footer {background-color: var(--secondary-background-color)}
 }
 .pluses-title {
     color: var(--primary-title-color);
-    font-weight: 700;
-    font-size: inherit;
     line-height: 1.2;
 }
 .pluses-text {
-    color: var(--primary-text-color);
-    font-weight: 400;
-    font-size: inherit;
     line-height: 1.7;
 }
 
@@ -136,35 +128,27 @@ footer {background-color: var(--secondary-background-color)}
 list-style: none;
 }
 
-.job-title {
-    color: var(--primary-title-color);
-    font-weight:700;
-    font-size: 36px;
-    line-height: 1.2;}
-
 .job-list {
     list-style: none;
 }
 .team-list {
     list-style: none;
 }
+.work-list {
+list-style: none;
+}
 
-.team-title {
+.section-title {
     color: var(--primary-title-color);
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
 }
-.team-title-two {
+.team-title   {
     color: var(--primary-title-color);
-    font-weight: 700;
     font-size: 16px;
     line-height: 1.2;
 }
 .team-text {
-    color: var(--primary-text-color);
-    font-weight: 400;
-    font-size: inherit;
     line-height: 1.2;
 }
 .team {
@@ -173,6 +157,7 @@ list-style: none;
 .filter-list {
     list-style: none;
 }
+
 .filter-btn {
     background-color: #F5F4FA;
     height: 38px;
@@ -181,21 +166,20 @@ list-style: none;
     line-height: 1.6;
     color: var(--primary-title-color);
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .filter-btn:focus,
 .filter-btn:hover {
-    background-color: var(--accent-color)
+    background-color: var(--accent-color);
+    color: var(--primary-background-color);
 }
 .work-title {
-font-weight: 700;
 font-size: 18px;
 line-height: 2;
 color: var(--primary-title-color);
 }
 .work-text {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
-color: var(--primary-text-color);
 }
