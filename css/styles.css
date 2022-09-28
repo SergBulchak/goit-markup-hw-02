@@ -22,9 +22,8 @@ body {
 
 
 .nav-link {text-decoration: none;
-    font-family: 'Roboto', sans-serif; 
     font-weight: 500; 
-    line-height: 1,15; 
+    line-height: 1.17; 
     color: var(--primary-title-color);
 }
 .current {
@@ -38,8 +37,9 @@ body {
 .contact-link{
         text-decoration: none;
         font-weight: 500;
-        line-height: 1,15;
+        line-height: 1.17;
         color: var(--primary-text-color);
+        font-style: normal;
     }
 
 .contact-link:focus,
@@ -48,34 +48,40 @@ body {
 }
 
 .list {list-style: none;}
+
 .logo {font-family: "raleway", sans-serif;
     font-weight: 700; 
     font-size: 26px;
     color: #000000;
     text-decoration: none;
-    line-height: 1.2;
+    line-height: 1.17;
 }
 .logo-foot {
     font-family: "raleway", sans-serif;
-        font-weight: 700;
-        font-size: 26px;
-        color: var(--primary-background-color);
-        text-decoration: none;
-        line-height: 1.2;
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--primary-background-color);
+    text-decoration: none;
+    line-height: 1.17;
+    font-style: normal;
 }
-footer {background-color: var(--secondary-background-color)}
+.footer {background-color: var(--secondary-background-color)
+}
 .accent {
     color: var(--accent-color);
 }
 .adress {text-decoration: none;
-    line-height: 1.5;
+    line-height: 1.71;
     color: var(--primary-background-color);
     font-style:normal;
 }
 
 .mailt {text-decoration: none;
-    line-height: 1.5;
-    color: rgba(255, 255, 255, 0.6)}
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+}
+    
 
 .mailt:focus, .mailt:hover,
 .adress:focus, .adress:hover {
@@ -85,7 +91,6 @@ color: var(--accent-color);
 .hero {
     background-color: var(--secondary-background-color);
 }
-
 
 .hero-title {
     font-weight: 900;
@@ -102,7 +107,10 @@ color: var(--accent-color);
     color: var(--primary-background-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    cursor: var(--primary-background-color)
+    cursor: var(--primary-background-color);
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
 }
 .visually-hidden {
     position: absolute;
@@ -117,39 +125,33 @@ color: var(--accent-color);
     margin: -1px;
 }
 .pluses-title {
+    font-size: 14px;
     color: var(--primary-title-color);
-    line-height: 1.2;
+    line-height: 1.17;
 }
 .pluses-text {
-    line-height: 1.7;
+    line-height: 1.71;
 }
 
-.pluses-list{
-list-style: none;
-}
-
-.job-list {
-    list-style: none;
-}
-.team-list {
-    list-style: none;
-}
-.work-list {
-list-style: none;
+.pluses-list, .job-list, 
+.team-list, .work-list 
+ {list-style: none;
 }
 
 .section-title {
     color: var(--primary-title-color);
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.16;
 }
 .team-title   {
+    font-weight: 500;
     color: var(--primary-title-color);
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.18;
 }
 .team-text {
-    line-height: 1.2;
+    line-height: 1.18;
+    font-size: 16px;
 }
 .team {
     background-color: #F5F4FA;
@@ -167,6 +169,7 @@ list-style: none;
     color: var(--primary-title-color);
     border-radius: 4px;
     cursor: pointer;
+    font-family: inherit;
 }
 
 .filter-btn:focus,
@@ -178,8 +181,9 @@ list-style: none;
 font-size: 18px;
 line-height: 2;
 color: var(--primary-title-color);
+letter-spacing: 0.06em;
 }
 .work-text {
 font-size: 16px;
-line-height: 1.88;
+line-height: 1.87;
 }
