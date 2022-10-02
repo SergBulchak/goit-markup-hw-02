@@ -103,6 +103,8 @@ margin-left: 50px;
     line-height: 1.17;
     
 }
+
+
 .logo-foot {
     font-family: "raleway", sans-serif;
     font-weight: 700;
@@ -112,8 +114,28 @@ margin-left: 50px;
     line-height: 1.17;
     font-style: normal;
 }
-.footer {background-color: var(--secondary-background-color)
+.footer {background-color: var(--secondary-background-color);
+    padding: 60px 0 60px 0;
 }
+
+.footer .logo-foot {
+    display: inline-block;
+    margin-right: 0;
+}
+
+.foot-contacts {
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+.foot-contacts .list {
+    margin-bottom: 9px;
+}
+
+.foot-contacts .list:last-child {
+    margin-bottom: 0;
+}
+
 .accent {
     color: var(--accent-color);
 }
