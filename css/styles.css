@@ -130,6 +130,7 @@ margin-left: 50px;
 
 .foot-contacts .list {
     margin-bottom: 9px;
+    margin-right: 0;
 }
 
 .foot-contacts .list:last-child {
