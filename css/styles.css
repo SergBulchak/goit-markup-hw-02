@@ -12,6 +12,12 @@
     --primary-text-color: #757575;
 }
 
+h1, h2, h3, p, ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
@@ -20,6 +26,44 @@ body {
     font-size: 14px;
 }
 
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    border-bottom: 1px solid #ececec;
+    padding: 24px 0 24px 0;
+}
+.head-container {
+    display: flex;
+    align-items: center;
+}
+.site-nav {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+}
+
+.link .list + .list {
+margin-left: 50px;
+}
+
+.head-contacts {
+    display: flex ;
+    margin-left: auto;
+    padding: 0;
+}
+
+.head-contacts .list-cont + .list-cont {
+    margin-left: 50px;
+}
 
 .nav-link {text-decoration: none;
     font-weight: 500; 
@@ -35,11 +79,11 @@ body {
 }
 
 .contact-link{
-        text-decoration: none;
-        font-weight: 500;
-        line-height: 1.17;
-        color: var(--primary-text-color);
-        font-style: normal;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.17;
+    color: var(--primary-text-color);
+    font-style: normal;
     }
 
 .contact-link:focus,
@@ -49,12 +93,15 @@ body {
 
 .list {list-style: none;}
 
-.logo {font-family: "raleway", sans-serif;
+.logo {
+    margin-right: 93px;
+    font-family: "raleway", sans-serif;
     font-weight: 700; 
     font-size: 26px;
     color: #000000;
     text-decoration: none;
     line-height: 1.17;
+    
 }
 .logo-foot {
     font-family: "raleway", sans-serif;
@@ -90,9 +137,17 @@ color: var(--accent-color);
 
 .hero {
     background-color: var(--secondary-background-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
+    width: 696px;
+    text-align: center;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -101,14 +156,20 @@ color: var(--accent-color);
     text-transform: uppercase;
 }
 .btn-service {
-    width: 216px;
-    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 32px;
     background-color: #188ce8;
     color: var(--primary-background-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: var(--primary-background-color);
     font-size: 16px;
+    font-weight: 700;
+    font-family: inherit;
     line-height: 1.8;
     letter-spacing: 0.06em;
 }
@@ -124,7 +185,21 @@ color: var(--accent-color);
     clip-path: inset(50%);
     margin: -1px;
 }
+
+.pluses {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.pluses-item {
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .pluses-title {
+    margin-bottom: 10px;
     font-size: 14px;
     color: var(--primary-title-color);
     line-height: 1.17;
