@@ -16,8 +16,8 @@
             <nav class="site-nav">
                 <a class="logo" href="./index.html"><span class="accent">Web</span>Studio</a>
                 <ul class="link">
-                    <li class="list"><a class="nav-link current" href="./index.html">Студія</a></li>
-                    <li class="list"><a class="nav-link" href="./portfolio.html">Портфоліо</a></li>
+                    <li class="list"><a class="nav-link" href="./index.html">Студія</a></li>
+                    <li class="list"><a class="nav-link current" href="./portfolio.html">Портфоліо</a></li>
                     <li class="list"><a class="nav-link" href="">Контакти</a></li>
                 </ul>
             </nav>
@@ -28,18 +28,21 @@
         </div>
     </header>
     <main>
-        <section>
+        <section class="filter-section">
             <!--Фільтр-->
-            <ul>
+            <div class="container">
+            <ul class="filter-item">
                 <li class="filter-list"> <button class="filter-btn all" type="button">Усі</button></li>
                 <li class="filter-list"> <button class="filter-btn sites" type="button">Веб-сайти</button></li>
                 <li class="filter-list"> <button class="filter-btn app" type="button">Додатки</button></li>
                 <li class="filter-list"> <button class="filter-btn design" type="button">Дизайн</button></li>
                 <li class="filter-list"> <button class="filter-btn marketing" type="button">Маркетинг</button></li>
             </ul>
+            </div>
             <!--Наші роботи-->
-            <h1> Наші роботи</h1>
-            <ul>
+            <section class="works">
+            <div class="container">
+            <ul class="works">
                 <li class="work-list">
                     <img src="./imgportfolio/imgtechno.jpg" alt="Веб-сайт Технокряк" width="370" height="294">
                     <h2 class="work-title">Технокряк</h2>
@@ -86,19 +89,23 @@
                     <p class="work-text">Додаток</p>
                 </li>
             </ul>
+            </section>
+            </div>
         </section>
     </main>
     <footer class="footer">
-        <a class="logo-foot" href="./index.html"><span class="accent">Web</span>Studio</a>
-        <address>
-            <ul class="foot-contacts">
-                <li class="list"><a class="adress" href="https://goo.gl/maps/iiZ4q8Yc7zTfPGvo6" target="_blank"
-                        rel="noopener noreferrent">
-                        м. Київ, бул. Лесі Українки, 26</a></li>
-                <li class="list"><a class="mailt" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="list"><a class="mailt" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+        <div class="container">
+            <a class="logo-foot" href="./index.html"><span class="accent">Web</span>Studio</a>
+            <address>
+                <ul class="foot-contacts">
+                    <li class="list"><a class="adress" href="https://goo.gl/maps/iiZ4q8Yc7zTfPGvo6" target="_blank"
+                            rel="noopener noreferrent">
+                            м. Київ, бул. Лесі Українки, 26</a></li>
+                    <li class="list"><a class="mailt" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="list"><a class="mailt" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 </html>

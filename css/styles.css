@@ -305,20 +305,40 @@ margin-right: 0;
     margin-top: 188px;
     background-color: #F5F4FA;
 }
+
+.filter-item {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.filter-item .filter-list + .filter-list {
+    margin-left: 8px;
+}
+
+
 .filter-list {
     list-style: none;
 }
 
 .filter-btn {
+    padding: 6px 22px;
     background-color: #F5F4FA;
     height: 38px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     color: var(--primary-title-color);
+    border: 0px;
     border-radius: 4px;
     cursor: pointer;
     font-family: inherit;
+}
+
+.all {
+    padding: 6px 25px;
 }
 
 .filter-btn:focus,
@@ -326,6 +346,11 @@ margin-right: 0;
     background-color: var(--accent-color);
     color: var(--primary-background-color);
 }
+
+.works {
+
+}
+
 .work-title {
 font-size: 18px;
 line-height: 2;
