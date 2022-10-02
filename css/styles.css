@@ -198,14 +198,26 @@ color: var(--accent-color);
     margin-right: auto;
 }
 
+.pluses-item .pluses-list {
+    width: calc((100%-90px)/4);
+    margin-right: 30px;
+}
+
+.pluses-item .pluses-list:last-child {
+margin-right: 0;
+}
+
 .pluses-title {
     margin-bottom: 10px;
+    font: weight 700;
     font-size: 14px;
     color: var(--primary-title-color);
     line-height: 1.17;
+    text-transform: uppercase;
 }
 .pluses-text {
     line-height: 1.71;
+    text-align: left;
 }
 
 .pluses-list, .job-list, 
@@ -213,22 +225,61 @@ color: var(--accent-color);
  {list-style: none;
 }
 
-.section-title {
+.job-title {
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
     color: var(--primary-title-color);
     font-size: 36px;
     line-height: 1.16;
 }
+.job-images {
+    display: flex;
+    align-items: center;
+}
+.job-images .job-list {
+    width: calc((100%-60px)/3);
+    margin-right: 30px;
+}
+.job-images .job-list:last-child {
+    margin-right: 0px;
+}
+
+.section-title {
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 .team-title   {
     font-weight: 500;
     color: var(--primary-title-color);
     font-size: 16px;
     line-height: 1.18;
 }
+
+.team-item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 94px;
+}
+
+.team-item .team-list {
+    width: calc((100%-90px)/4);
+    margin-right: 30px;
+}
+
+.team-item .team-list:last-child {
+    margin-right: 0;
+}
 .team-text {
     line-height: 1.18;
     font-size: 16px;
 }
 .team {
+    margin-top: 188px;
     background-color: #F5F4FA;
 }
 .filter-list {
